@@ -10,8 +10,6 @@ const secondsLeft = document.querySelector('[data-seconds]');
 let selectedDate;
 let timerId;
 
-
-
 startBtn.setAttribute('disabled', '');
 
 const fp = flatpickr('#datetime-picker', {
